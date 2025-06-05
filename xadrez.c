@@ -7,6 +7,35 @@
 int main() {
     // Nível Novato - Movimentação das Peças
     // Sugestão: Declare variáveis constantes para representar o número de casas que cada peça pode se mover.
+printf("Movendo a Torre\n"); //Imprime a peça que está fazendo do movimento
+
+    //Mover a torre 5 casas para a direita
+    for (int i = 0; i < 5; i++) {
+        printf("Direita\n"); //Imprime a direção do movimento
+    }
+
+    printf("\n");
+    printf("Movendo o Bispo\n"); //Imprime a peça que está fazendo do movimento
+
+    //Mover o Bispo 5 casas na diagonal
+    int i = 1;
+
+while ( i <= 5)
+{
+    printf("Diagonal para direita cima\n", i); //Imprime a direção do movimento
+    i++;
+}
+
+//Movendo a Rainha 8 casas para esquerda
+printf("\n");
+printf("Movendo a Rainha\n"); //Imprime a peça que está fazendo do movimento
+
+do {
+    printf("Esquerda\n", i); //Imprime a direção do movimento
+    i++;
+} while (i <= 13);
+
+
 
     // Implementação de Movimentação do Bispo
     // Sugestão: Utilize uma estrutura de repetição para simular a movimentação do Bispo em diagonal.
